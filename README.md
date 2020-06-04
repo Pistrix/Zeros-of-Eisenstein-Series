@@ -1,5 +1,6 @@
 # Zeros-of-Eisenstein-Series
-Computations of Eisenstein Series and Related Objects
+Computations of Eisenstein Series and Related Objects.
+
 All scripts are Pari/GP scripts, see https://pari.math.u-bordeaux.fr/pub/pari/manuals/2.11.1/users.pdf for more details on scripting with Pari/GP.
 
 The repository contains three files:
