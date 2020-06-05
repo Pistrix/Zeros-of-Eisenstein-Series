@@ -17,3 +17,5 @@ LACUNARY RECURRENCES FOR EISENSTEIN SERIES by MICHAEL H. MERTENS and LARRY ROLEN
 zeroEk.gp contains the functions necessary for reproducing the results given at the end of the paper. When recomputing these zeroes, it is reccomended to increase the precision of Pari/GP to at least 100, for accurate results. 
 
 Further details on the functions and running them can be found in the comments of the code.
+
+WARNING: Functions to not check weight. User might get unexpected results from odd or small weights.
