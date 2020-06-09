@@ -3,10 +3,13 @@ Computations of Eisenstein Series and Related Objects.
 
 All scripts are Pari/GP scripts, see https://pari.math.u-bordeaux.fr/pub/pari/manuals/2.11.1/users.pdf for more details on scripting with Pari/GP.
 
-The repository contains three files:
+The repository contains six files:
+  - this README
+  - prodChecking.gp
   - zeroPoly.gp
   - zeroEk.gp
-  - prodChecking.gp
+  - eigenform.gp
+  - lfundata.gp
   
 prodChecking.gp uses some basic functions of the modular forms package to verify the known relationships between 1-dimensional spaces of Eisenstein series. Included also are some functions for testing if the three product of Eisenstein series ever equates to another 3 or less product. This data was motivating evidence towards the theorem proved in the main paper.
 
@@ -15,6 +18,10 @@ zeroPoly.gp focuses on the zero polynomial of Eisentein series. Included are fun
 LACUNARY RECURRENCES FOR EISENSTEIN SERIES by MICHAEL H. MERTENS and LARRY ROLEN.
 
 zeroEk.gp contains the functions necessary for reproducing the results given at the end of the paper. When recomputing these zeroes, it is reccomended to increase the precision of Pari/GP to at least 100, for accurate results. 
+
+eigenform.gp houses functions needed for computing the L-values in Table 6. EVAL does the actual computation while the other functions print the results in latex format. checkEval can be used to see all possible cases of l_1 and l_2, however, it does not exclude the cases arising from trivial identites. 
+
+lfundata.gp stores data pulled from the LMFDB needed to run the computations of eigenform.gp, i.e Dirichlet coefficients of normalized eigenforms of a given weight.
 
 Further details on the functions and running them can be found in the comments of the code.
 
