@@ -28,4 +28,4 @@ lfundata.gp stores data pulled from the LMFDB needed to run the computations of 
 
 Further details on the functions and running them can be found in the comments of the code.
 
-WARNING: Functions to not check weight. User might get unexpected results from odd or small weights.
+WARNING: Functions do not check weight. User might get unexpected results from odd or small weights.
