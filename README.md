@@ -4,7 +4,7 @@ Computations of Eisenstein Series and Related Objects.
 All scripting was done in Pari/GP, see https://pari.math.u-bordeaux.fr/pub/pari/manuals/2.11.1/users.pdf for more details on scripting with Pari/GP.
 
 The repository contains seven files and a data repository:
-  - this README
+  - this README.md
   - prodChecking.gp
   - zeroPoly.gp
   - zeroEk.gp
@@ -25,6 +25,9 @@ The repository contains seven files and a data repository:
 
 **lfundata.gp** stores data pulled from the LMFDB needed to run the computations of eigenform.gp, i.e Dirichlet coefficients of normalized eigenforms of a given weight.
 
+**data** has been populated with the zero locations of cos and Ek for k up to 10,000.
+
 Further details on the functions and running them can be found in the comments of the code.
 
 **_WARNING_**: Functions do not check weight. User might get unexpected results from odd or small weights.
+
