@@ -25,7 +25,7 @@ The repository contains seven files and a data repository:
 
 **lfundata.gp** stores data pulled from the LMFDB needed to run the computations of eigenform.gp, i.e Dirichlet coefficients of normalized eigenforms of a given weight.
 
-**data** has been populated with the zero locations of cos and Ek for k up to 10,000.
+**data** has been populated with the zero locations of cos and Ek for k up to 10,000. Note that the zeros are sorted first by index and then by weight, i.e. all of the i-ths zeros are grouped under one mapping.
 
 Further details on the functions and running them can be found in the comments of the code.
 
