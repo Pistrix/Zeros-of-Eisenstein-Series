@@ -199,7 +199,7 @@ checkInterlacingCasesEK(k) =
    interlacingEK(k,22);
 }
 
-interlacingCOS(k,a) = \\ Creates a table to manually check for interlacing
+interlacingCOS(k,a) = \\ Creates a table to manually check for interlacing WARNING: table directory not included in repo, must manually add
 {
    if(numZeros(k+a)-numZeros(k) > 1, return());
    my(N,z1,z2);
